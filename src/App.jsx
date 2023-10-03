@@ -5,13 +5,14 @@ import {
 	Services,
 	SuperQuality,
 	Subscribe,
-	Navbar,
 	PopularProducts,
 	SpecialOffer,
 } from "./sections";
+import NavBar from "./components/NavBar";
+
 const App = () => (
 	<main className="relative">
-		<Navbar />
+		<NavBar />
 		<section className="x1:padding-1 wide:padding-r padding-b">
 			<Hero />
 		</section>
