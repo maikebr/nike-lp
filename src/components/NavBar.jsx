@@ -10,8 +10,8 @@ const NavBar = () => {
 					<img src={headerLogo} alt="Logo" width={130} height={29} />
 				</a>
 				<ul className="flex-1 flex items-center justify-center gap-16 max-lg:hidden">
-					{navLinks.map((link) => (
-						<li key={link.id}>
+					{navLinks.map((link, index) => (
+						<li key={index}>
 							<a
 								className="font-montserrat leading-normal text-lg text-slate-gray"
 								href={link.href}>
