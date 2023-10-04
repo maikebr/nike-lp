@@ -114,16 +114,15 @@ export const reviews = [
 
 export const footerLinks = [
 	{
-		title: "Products",
+		title: "Explore",
 		links: [
-			{ name: "Air Force 1", link: "/" },
-			{ name: "Air Max 1", link: "/" },
-			{ name: "Air Jordan 1", link: "/" },
-			{ name: "Air Force 2", link: "/" },
-			{ name: "Nike Waffle Racer", link: "/" },
-			{ name: "Nike Cortez", link: "/" },
+			{ name: "Latest Releases", link: "/" },
+			{ name: "Custom Creations", link: "/" },
+			{ name: "Limited Edition", link: "/" },
+			{ name: "Nike Classics", link: "/" },
 		],
 	},
+
 	{
 		title: "Help",
 		links: [

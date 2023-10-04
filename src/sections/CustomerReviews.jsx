@@ -1,12 +1,12 @@
 import { reviews } from "../contants";
 import { ReviewCard } from "../components";
 
-const CostumerReviews = () => {
+const CustomerReviews = () => {
 	return (
 		<section className="max-container">
 			<h3 className="font-palanquin text-4xl text-center font-bold">
 				What Our
-				<span className="text-coral-red"> Costumers </span> Say?
+				<span className="text-coral-red"> Customers </span> Say?
 			</h3>
 			<p className=" info-text m-auto mt-4 max-w-lg text-center">
 				{" "}
@@ -22,4 +22,4 @@ const CostumerReviews = () => {
 	);
 };
 
-export default CostumerReviews;
+export default CustomerReviews;
