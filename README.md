@@ -1,3 +1,5 @@
+Check this on https://maikebr.github.io/nike-lp/
+
 # Nike Landing Page - Tailwind CSS Project
 
 Nike Landing Page crafted with Tailwind CSS. This project showcases my hands-on experience with:
